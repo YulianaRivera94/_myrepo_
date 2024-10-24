@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "esnext",                          // Establece la versión de ECMAScript a utilizar
+    "useDefineForClassFields": true,
+    "lib": ["dom", "dom.iterable", "esnext"],   // Bibliotecas que se incluirán en la compilación
+    "allowJs": true,                             // Permite archivos .js
+    "skipLibCheck": true,                        // Omite la verificación de tipos en archivos de declaración de bibliotecas
+    "strict": true,                              // Activa todas las opciones de verificación estricta
+    "forceConsistentCasingInFileNames": true,   // Fuerza la consistencia en los nombres de archivo
+    "noEmit": true,                              // No emite archivos de salida
+    "esModuleInterop": true,                     // Habilita la interoperabilidad de módulos
+    "module": "esnext",                          // Tipo de módulo a utilizar
+    "moduleResolution": "node",                  // Resolución de módulos
+    "jsx": "react-jsx"                           // Utiliza la sintaxis de JSX de React
+  },
+  "include": ["src"],                           // Directorios que deben incluirse en la compilación
+  "exclude": ["node_modules", "**/*.spec.ts"]  // Directorios que deben excluirse
+}
+
